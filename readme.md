@@ -1,6 +1,6 @@
-# streambot
+# streambot.
 
-## Deprecated
+## Deprecated.
 
 As of 11/18/2016, AWS introduced [a native mechanism for providing environment variables to lambda functions](https://aws.amazon.com/about-aws/whats-new/2016/11/aws-lambda-supports-environment-variables/), which is also [supported by CloudFormation](https://aws.amazon.com/about-aws/whats-new/2016/11/aws-cloudformation-supports-aws-serverless-application-model-aws-lambda-environment-variables-and-new-cli-commands/). These features negate the gap that streambot existed to fill. You **should not** use streambot to configure new Lambda functions.
 
